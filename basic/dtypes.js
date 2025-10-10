@@ -8,11 +8,12 @@
 let name1 = "shashank"   //string
 let isLoggedIn = true   //boolean - true/false
 let age = 21   //number -- 'bigint' for large values
-let state;  //'undefined' data type
+let state;  //'undefined' data type // let state = undefined;
 
 let string1 = "";   // empty string but data type is defined 
 let string2 = null;  //null represents empty value - datatype is not undefined
 // null itself is a standalone value as well as a datatype 'object'
+// null represents missing value/empty and not zero
 
 // 'symbol' --> another datatype for uniqueness
 // object --> user defined datatype(not primitive)
