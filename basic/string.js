@@ -76,3 +76,10 @@ console.log(newUrl);
 console.log(url.includes('nikhil'));  // true 
 console.log(url.includes('neha'));  // false
 
+const newUser4 = "quantum-mechanics is-mathematics intensive-subject"
+const split1 = newUser4.split('-')  // split based on '-'
+const split2 = newUser4.split(' ')  // split based on ' ' (white space)
+console.log(split1); // array of splitted strings
+console.log(split2); // array of splitted strings
+console.log(split1[2]);
+console.log(split2[1]);
